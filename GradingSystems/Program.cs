@@ -1,7 +1,20 @@
+using GradingSystems.Models;
+using GradingSystems.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<SchoolgradingsystemContext>(conf =>
+{
+    conf.UseNpgsql();
+
+});
+
+builder.Services.AddScoped<IUserService,UserService>();
 
 var app = builder.Build();
 

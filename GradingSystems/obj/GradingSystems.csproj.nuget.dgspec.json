@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xplio\\source\\repos\\GradingSystems\\GradingSystems\\GradingSystems.csproj": {}
+    "C:\\Source\\georgi\\Schoolgradingsystem\\GradingSystems\\GradingSystems.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xplio\\source\\repos\\GradingSystems\\GradingSystems\\GradingSystems.csproj": {
+    "C:\\Source\\georgi\\Schoolgradingsystem\\GradingSystems\\GradingSystems.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xplio\\source\\repos\\GradingSystems\\GradingSystems\\GradingSystems.csproj",
+        "projectUniqueName": "C:\\Source\\georgi\\Schoolgradingsystem\\GradingSystems\\GradingSystems.csproj",
         "projectName": "GradingSystems",
-        "projectPath": "C:\\Users\\xplio\\source\\repos\\GradingSystems\\GradingSystems\\GradingSystems.csproj",
-        "packagesPath": "C:\\Users\\xplio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xplio\\source\\repos\\GradingSystems\\GradingSystems\\obj\\",
+        "projectPath": "C:\\Source\\georgi\\Schoolgradingsystem\\GradingSystems\\GradingSystems.csproj",
+        "packagesPath": "C:\\Users\\Miro\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\georgi\\Schoolgradingsystem\\GradingSystems\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\xplio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Miro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -40,37 +46,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "EntityFramework6.Npgsql": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.4.3, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "target": "Package",
-              "version": "[2.2.8, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.17.2, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.5, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[7.0.3, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
               "target": "Package",
@@ -96,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
